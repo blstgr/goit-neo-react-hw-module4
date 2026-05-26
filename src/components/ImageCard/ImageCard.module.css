@@ -1,0 +1,29 @@
+.card {
+  overflow: hidden;
+  border-radius: 8px;
+  background: #dce5f4;
+  box-shadow: 0 12px 32px rgb(31 42 68 / 12%);
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition:
+    filter 180ms ease,
+    transform 220ms ease;
+}
+
+.button:hover .image,
+.button:focus .image {
+  filter: saturate(1.08);
+  transform: scale(1.03);
+}

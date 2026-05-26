@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.button {
+  min-width: 138px;
+  min-height: 44px;
+  border: 0;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 700;
+  background: #254edb;
+  box-shadow: 0 10px 22px rgb(37 78 219 / 22%);
+  transition:
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+
+.button:hover,
+.button:focus {
+  background: #173bb5;
+}
+
+.button:active {
+  transform: translateY(1px);
+}

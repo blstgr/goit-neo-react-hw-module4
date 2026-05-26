@@ -1,0 +1,47 @@
+.modal {
+  background: #ffffff;
+}
+
+.image {
+  width: 100%;
+  max-height: 72vh;
+  object-fit: contain;
+  background: #101827;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 24px 24px;
+}
+
+.title {
+  margin: 0;
+  color: #172033;
+  font-size: 20px;
+  line-height: 1.35;
+  text-transform: capitalize;
+}
+
+.author {
+  margin: 8px 0 0;
+  color: #667085;
+}
+
+.likes {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #17348f;
+  font-weight: 700;
+  background: #eaf0ff;
+}
+
+@media (max-width: 640px) {
+  .info {
+    flex-direction: column;
+  }
+}
