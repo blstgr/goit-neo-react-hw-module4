@@ -1,13 +1,13 @@
 # goit-neo-react-hw-module4
 
-React homework for Topic 8: Hooks. The app searches Unsplash images by keyword, shows a responsive gallery, loads more results, and opens a larger image with extra details in a modal.
+Домашня робота з теми 8: React-хуки. Застосунок шукає зображення на Unsplash за ключовим словом, показує адаптивну галерею, дозволяє завантажувати наступні сторінки результатів і відкриває велике зображення з додатковою інформацією в модальному вікні.
 
-## Links
+## Посилання
 
-- Source code: https://github.com/blstgr/goit-neo-react-hw-module4
-- Live page on Vercel: https://goit-neo-react-hw-module4-nine-rust.vercel.app
+- Вихідні файли: https://github.com/blstgr/goit-neo-react-hw-module4
+- Робоча сторінка на Vercel: https://goit-neo-react-hw-module4-nine-rust.vercel.app
 
-## Tech Stack
+## Технології
 
 - Vite
 - React
@@ -17,37 +17,37 @@ React homework for Topic 8: Hooks. The app searches Unsplash images by keyword, 
 - React Spinners
 - CSS Modules
 
-## Requirements Covered
+## Виконані вимоги
 
-- The project is created with Vite.
-- HTTP requests are made with `axios`.
-- Notifications use `react-hot-toast`.
-- The modal uses `react-modal` and closes on `Esc` or overlay click.
-- Component folders in `src/components` contain matching `.jsx` and `.module.css` files.
-- Components use default exports.
-- Styling is implemented with CSS modules.
-- The gallery renders only when images are loaded.
-- The loader appears below the gallery while more images are loading.
-- The `Load more` button appears only when there are loaded images and more pages are available.
+- Проєкт створено за допомогою Vite.
+- HTTP-запити виконуються через `axios`.
+- Сповіщення реалізовані за допомогою `react-hot-toast`.
+- Модальне вікно реалізоване через `react-modal` і закривається клавішею `Esc` або кліком по бекдропу.
+- Для кожного компонента в `src/components` створена окрема папка з відповідними файлами `.jsx` та `.module.css`.
+- Для експорту компонентів використовується `export default`.
+- Стилізація виконана за допомогою CSS-модулів.
+- Галерея рендериться лише тоді, коли є завантажені зображення.
+- Індикатор завантаження відображається під галереєю під час запиту.
+- Кнопка `Load more` з'являється лише тоді, коли вже є завантажені зображення і доступні наступні сторінки.
 
-## Environment Variables
+## Змінні оточення
 
-Create a `.env` file based on `.env.example`:
+Створіть файл `.env` на основі `.env.example`:
 
 ```bash
 VITE_UNSPLASH_ACCESS_KEY=your_unsplash_access_key
 ```
 
-The same variable must be added in Vercel project settings before deployment.
+Цю саму змінну потрібно додати в налаштуваннях проєкту на Vercel перед деплоєм.
 
-## Run Locally
+## Запуск локально
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+## Збірка
 
 ```bash
 npm run build
