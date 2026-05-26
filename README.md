@@ -5,7 +5,7 @@ React homework for Topic 8: Hooks. The app searches Unsplash images by keyword, 
 ## Links
 
 - Source code: https://github.com/blstgr/goit-neo-react-hw-module4
-- Live page on Vercel: add the deployed Vercel URL after deployment
+- Live page on Vercel: https://goit-neo-react-hw-module4-nine-rust.vercel.app
 
 ## Tech Stack
 
